@@ -1,0 +1,5 @@
+This is a note taking app 
+react django
+user authentication token with sign in logout and registration from
+using react rouer dom
+you can add delete notes

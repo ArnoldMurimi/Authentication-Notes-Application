@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+  
+}
+.name-class{
+  display: block;
+}
+.TextArea-Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.TextArea-wrapper{
+  display: block;
+}
+.Text-Area-Element{
+  margin: 2rem;
+  max-width: 800px;
+  height: 400px;
+  width: 400px;
+  padding: 1rem;
+  font-size:.9rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Text-Area-Button-Container{
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin: .2rem;
+  padding: 4px 12px;
+  border: none;
+}
+.HeaderContainer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+}
+.HeaderWrapper{
+display: inline-block;
+
+}
+.Nav-Container{
+ height: 50PX;
+ box-shadow: 0 0 0 2px; 
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+}
+.Nav-Container a{
+  padding:.2rem;
+  align-items: center;
+  margin-top: .2rem;
+}
+li{
+  list-style: none;
+}
+.Left-side-nav-wrapper ul{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: .4rem;
+}
+.Right-side-Nav-Wrapper{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Left-side-nav-wrapper ul li {
+  text-align: center;
+  align-items: center;
+  margin-top: .2rem;
+  justify-content: center;
+}
+.Login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 500px;
+}
+.Notes-Display-Container{
+  display: grid;
+  grid-template-columns:  repeat(3 1fr);
+  
+}
+.notes-display-container-wrapper{
+  display: grid;
+  grid-template-columns:  repeat(3 1fr);
+  gap: .5rem;
+  
+}
+.Single-note-box{
+  border: 1px solid black;
+  margin: .3rem;
+}
+.Note-display-wrapper{
+  display: block;
+  height: 150px;
+  width: 350px;
+}
+.note-text-area-element{
+  margin: 1rem;
+  max-width: 300px;
+  max-height: 300px;
+  height: 150px;
+  width: 250px;
+  overflow: hidden;
+  border: none;
+}
+.button-area{
+  margin: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.Read-Note-Display-Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 500px;
+  margin:  auto;
+}
+.Read-Note-Display-Wrapper{
+  display: block;
+  border: 1px solid black;
+  align-items: center;
+  text-align: center;
+  margin:  auto;
+}
+.ReadNote-textArea-Element{
+  margin: 1rem;
+  max-width: 300px;
+  max-height: 300px;
+  height: 500px;
+  width: 400px;
+
+  border: none;
+}
